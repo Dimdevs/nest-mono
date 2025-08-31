@@ -11,8 +11,8 @@ npm run seed
 npm run dev
 ```
 
-- Swagger: http://localhost:3000/docs
-- Health:  http://localhost:3000/health
+- Swagger: http://localhost:9099/docs
+- Health:  http://localhost:9099/health
 - WS (public): `io('/realtime')`
 - WS (secure namespace with JWT): `io('/secure', { auth: { token: '<JWT>' } })`
 

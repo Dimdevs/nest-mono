@@ -33,6 +33,6 @@ async function bootstrap() {
   // app.useWebSocketAdapter(redisAdapter);
 
   setupSwagger(app);
-  await app.listen(cfg.get<number>('port') || 3000);
+  await app.listen(cfg.get<number>('port') || 9099);
 }
 bootstrap();

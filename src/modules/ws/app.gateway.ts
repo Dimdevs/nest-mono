@@ -1,4 +1,3 @@
-// src/modules/ws/app.gateway.ts
 import { OnGatewayInit, SubscribeMessage, WebSocketGateway, WebSocketServer } from '@nestjs/websockets';
 import { Server } from 'socket.io';
 

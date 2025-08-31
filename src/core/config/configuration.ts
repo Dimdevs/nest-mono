@@ -1,5 +1,5 @@
 export default () => ({
-  port: parseInt(process.env.PORT ?? '3000', 10),
+  port: parseInt(process.env.PORT ?? '9099', 10),
   nodeEnv: process.env.NODE_ENV ?? 'development',
   corsOrigins: JSON.parse(process.env.CORS_ORIGINS ?? '[]') as string[],
   db: { url: process.env.DATABASE_URL! },
