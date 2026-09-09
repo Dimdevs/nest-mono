@@ -11,6 +11,8 @@ npm run seed
 npm run dev
 ```
 
+hallo
+
 - Swagger: http://localhost:9099/docs
 - Health:  http://localhost:9099/health
 - WS (public): `io('/realtime')`
